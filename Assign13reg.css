@@ -1,0 +1,60 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2021/12/19/15/32/mug-6881412_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main{
+    height: 70vh;
+    width: 50%;
+    background-color: white;
+    position: relative;
+    top: 10vh;
+    left: 27%;
+    border-radius: 5%;
+    border: 5px outset grey;
+}
+#section-1{
+    height: 70vh;
+    width: 45%;
+    background-image: url("https://cdn.pixabay.com/animation/2023/01/28/01/51/01-51-26-381_512.gif");
+    /* background-image: url("https://cdn.pixabay.com/photo/2012/02/29/15/59/neon-19290_640.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 72vh;
+    border-radius: 5%;
+}
+form{
+    position: relative;
+    bottom: 450px;
+    left: 55%;
+    top: -480px;
+    line-height: 70px;
+    font-size: 17px;   
+    color: black; 
+    font-weight: bolder;
+}
+::placeholder{
+    position: relative;
+    left: 20%;
+    color: #99DBF5;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+    height: 23px;
+    width: 90%;
+    border-radius: 5%;
+    border: 2px solid grey;
+}
+button{
+    height: 30px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    background-color: #00C4FF;
+    color: aqua;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}

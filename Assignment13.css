@@ -1,0 +1,509 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+    
+}
+#hi1,#hi2,#hi3,#hi4,#hi5{
+    color: white;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    
+    position: relative;
+    padding: 0 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      
+}
+#hi{
+    padding: 2px;
+    position: relative;
+    top: 10px;
+    border: 2px double black;
+    border-radius: 10px;
+}
+
+nav .logo{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 100px;
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 17px;
+}
+nav ul li:hover{
+    text-decoration: 2px #00000085 underline;
+}
+
+#hi{
+    height: 18px;
+    width: 200px;
+}
+nav ul li{
+    position: relative;
+    right: 10%;
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 160px;
+    color: white;
+    font-weight: 600;
+    transition: 2s;
+}
+.content h1:hover{
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.back-video{
+    position: absolute;
+    filter: blur(2px);
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+.hello{
+    position: absolute;
+    top: 165px;
+    left: 40px;
+    
+}
+.hello1{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    height: 30px;
+    width: 300px;
+    font-weight: bolder;
+    
+}
+#helloi{
+    position: absolute;
+    left: 20px;
+}
+#helloii{
+    position: absolute;
+    left: 265px;
+}
+#helloiii{
+    position: absolute;
+    left: 505px;
+}
+#helloiv{
+    position: absolute;
+    left: 710px;
+}
+#hellov{
+    position: absolute;
+    left: 940px;
+    height: 30px;
+    width: 180px;
+}
+#hellovi{
+    position: absolute;
+    left: 1190px;
+    height: 30px;
+    width: 150px;
+}
+#haha2{
+    position: absolute;
+    top:50px;
+    left: 40px;
+}
+#haha3{
+    position: absolute;
+    top:50px;
+    left:270px;
+}
+#haha4{
+    position: absolute;
+    top:50px;
+    left: 510px;
+}
+#haha5{
+    position: absolute;
+    top:50px;
+    left: 750px;
+}
+#haha6{
+    position: absolute;
+    top:50px;
+    left: 980px;
+}
+#haha7{
+    position: absolute;
+    top:50px;
+    left: 1230px;
+}
+.haha img{
+    height: 150px;
+    width: 150px;
+    padding: 0px 0px;
+    border: 1px solid;
+    border-radius: 50%;
+    /* transition: all 1s; */
+
+}
+
+.haha img:hover{
+    border: 4px solid #47A992;
+}
+.container{
+    position: relative;
+    top: 0px;
+}
+.container h1{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+.haa{
+    height: 280px;
+    width: 70%;
+    position: absolute;
+    top: 1200px;
+    border: 2px solid #FFEEBB;
+    border-radius: 10px;
+    background-color: #f5e0a2;
+    left: 212px;
+    padding: 0px 25px;
+    font-size: 17.5px;
+    font-family: cursive,sans-serif;
+}
+.haa button{
+    position: relative;
+    left: 902px;
+    top: -90px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 15px;
+}
+#haai{
+    height: 200px;
+    width: 10%;
+    position: relative;
+    left: 1110px;
+    top: 350px;
+    
+}
+
+.haa1{
+    height: 280px;
+    width: 70%;
+    position: absolute;
+    top: 1550px;
+    border: 2px solid #A7ECEE;
+    border-radius: 10px;
+    background-color: #A7ECEE;
+    left: 212px;
+    padding: 0px 25px;
+    font-size: 17.5px;
+    font-family: cursive,sans-serif;
+}
+.haa1 button{
+    position: relative;
+    left: 902px;
+    top: -70px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 15px;
+}
+#haa1i{
+    height: 200px;
+    width: 10%;
+    position: relative;
+    left: 960px;
+    top: 690px;
+    
+}
+
+.haa2{
+    height: 280px;
+    width: 70%;
+    position: absolute;
+    top: 1900px;
+    border: 2px solid #99DBF5;
+    border-radius: 10px;
+    background-color: #99DBF5;
+    left: 212px;
+    padding: 0px 25px;
+    font-size: 17.5px;
+    font-family: cursive,sans-serif;
+}
+.haa2 button{
+    position: relative;
+    left: 902px;
+    top: -70px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 15px;
+}
+#haa2i{
+    height: 200px;
+    width: 10%;
+    position: relative;
+    left: 820px;
+    top: 1050px;
+    
+}
+
+.haa3{
+    height: 280px;
+    width: 70%;
+    position: absolute;
+    top: 2250px;
+    border: 2px solid #00DFA2;
+    border-radius: 10px;
+    background-color: #1df0b8;
+    left: 212px;
+    padding: 0px 25px;
+    font-size: 17.5px;
+    font-family: cursive,sans-serif;
+}
+.haa3 button{
+    position: relative;
+    left: 902px;
+    top: -90px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 15px;
+}
+#haa3i{
+    height: 200px;
+    width: 10%;
+    position: relative;
+    left: 660px;
+    top: 1400px;
+    
+}
+
+.haa4{
+    height: 280px;
+    width: 70%;
+    position: absolute;
+    top: 2600px;
+    border: 2px solid #9AC5F4;
+    border-radius: 10px;
+    background-color: #9AC5F4;
+    left: 212px;
+    padding: 0px 25px;
+    font-size: 17.5px;
+    font-family: cursive,sans-serif;
+}
+.haa4 button{
+    position: relative;
+    left: 902px;
+    top: -70px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 15px;
+}
+#haa4i{
+    height: 200px;
+    width: 10%;
+    position: relative;
+    left: 500px;
+    top: 1730px;
+    
+}
+
+.haa5{
+    height: 280px;
+    width: 70%;
+    position: absolute;
+    top: 2950px;
+    border: 2px solid #1B9C85;
+    border-radius: 10px;
+    background-color: #1B9C85;
+    left: 212px;
+    padding: 0px 25px;
+    font-size: 17.5px;
+    font-family: cursive,sans-serif;
+}
+.haa5 button{
+    position: relative;
+    left: 902px;
+    top: -70px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 15px;
+}
+#haa5i{
+    height: 200px;
+    width: 10%;
+    position: relative;
+    left: 350px;
+    top: 2100px;
+    
+}
+
+
+.hello2{
+    position: absolute;
+    border: 1px double grey;
+    top: 3300px;
+    height: 40px;
+    width: 90%;
+    left: 90px;
+    padding: 0px 0px 0px 150px;
+    border-radius: 15px;
+    font-size: 14px;
+
+}
+#hello2ii{
+    position: relative;
+    top:2350px;
+    height: 70px;
+    width: 80px;
+    left: -800px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+#hello2i button{
+    position: relative;
+    right: 98.5px;
+    top: -30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color:green;
+}
+#hello3i{
+    position: relative;
+    left: 40px;
+    
+}
+
+#hello3ii{
+    position: relative;
+    top:2350px;
+    height: 70px;
+    width: 80px;
+    left: -520px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+#hello3i button{
+    position: relative;
+    right: 102px;
+    top: -30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color:green;
+}
+
+#hello4i{
+    position: relative;
+    left: 70px;
+}
+
+#hello4ii{
+    position: relative;
+    top:2350px;
+    height: 70px;
+    width: 80px;
+    left: -200px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+#hello4i button{
+    position: relative;
+    right: 105px;
+    top: -30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: green;
+}
+.coffee{
+    height: 490px;
+    position: relative;
+    top: 2600px;
+    font-size: 15px;
+    color: white;
+    border: 2px solid black;
+    background-color: #263A29;
+    overflow: hidden;
+}
+.haha1{
+    position: absolute;
+    top: 10px;
+    padding: 0px 2px 0px 420px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.haha1 th:first-child{
+    display: flex;
+}
+.haha1 th:nth-child(3){
+    position: relative;
+    right: 18px;
+}
+.haha1 th:first-child{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: grey;
+}
+
+#hii{
+    height: 80px;
+    width: 80px;
+    z-index: 2;
+    position: absolute;
+    top: 3690px;
+    left: 100px;
+}
